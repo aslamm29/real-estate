@@ -9,12 +9,13 @@ class Filter extends Component {
     }
 
     render(){
-        return(<section className="filter">
+        return(<section id="filter">
+            <div className="inside">
             <h4>Filter</h4>
             <select name="neighbourhood" className="filters neighbourhood">
                 <option>Ridgewood</option>
             </select>
-            <select name="housetype" className="filters neighbourhood">
+            <select name="housetype" className="filters housetype">
                 <option>Ranch</option>
             </select>
             <select name="bedrooms" className="filters bedrooms">
@@ -31,6 +32,7 @@ class Filter extends Component {
                 <input type="text" name="max-floor-space" className="max-floor-space" />
             </div>
             <div className="filters extras">
+                <span className="title">Extras</span>
                 <label for="extras">
                     <span>Elevators</span>
                     <input name="extras" value="elevator" type="checkbox" />
@@ -47,6 +49,7 @@ class Filter extends Component {
                     <span>Gym</span>
                     <input name="extras" value="gym" type="checkbox" />
                 </label>
+            </div>
             </div>
         </section>)
     }
