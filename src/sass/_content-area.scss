@@ -119,12 +119,47 @@
     }
 
     .listings-results{
+        margin-bottom: 60px;
+
         .listing{
             background: #fff;
             width: 33.33%;
+            border-radius: 5px;
             -webkit-box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
             -moz-box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
             box-shadow: 0px 9px 54px -4px rgba(224,224,224,1);
+        }
+
+        .listing-img{
+            color: white;
+            padding: 15px;
+            position: relative;
+            background: url("https://freshome.com/wp-content/uploads/2014/04/Gorgeous-evening-view-of-Russet-Residence-.jpg") no-repeat center center; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 200px;
+            -webkit-border-top-left-radius: 5px;
+            -webkit-border-top-right-radius: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+
+            .details{
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4e02e5+0,901ced+100 */
+                background: rgba(78,2,229,.8); /* Old browsers */
+                background: -moz-linear-gradient(-45deg, rgba(78,2,229,.8) 0%, rgba(144,28,237,.8) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(-45deg, rgba(78,2,229,.8) 0%,rgba(144,28,237,.8) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(135deg, rgba(78,2,229,.8) 0%,rgba(144,28,237,.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e02e5', endColorstr='#901ced',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+            }
         }
     }
 }

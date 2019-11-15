@@ -37,7 +37,8 @@ class Header extends Component {
                         <span className="post-date">12/12/2019</span>
                     </div>
                     <div className="listing-details">
-                        <div className="floor-space"><i className="far fa-square"></i>
+                        <div className="floor-space"><i className="far fa-square"></i></div>
+                        <div>
                         <span>10000 ft&sup2;</span>
                         </div>
                         <div className="bedrooms">
