@@ -87,7 +87,7 @@ var listingsData = [
         address: '730 gates ave',
         city: 'Etobicoke',
         state: 'ON',
-        rooms: 1,
+        rooms: 0,
         price: 150000,
         floorSpace: 2000,
         extras: [
