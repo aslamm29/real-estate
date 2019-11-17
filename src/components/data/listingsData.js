@@ -24,7 +24,7 @@ var listingsData = [
             'elevator',
             'gym'
         ],
-        homeType: 'Apartment',
+        homeType: 'Condo',
         image: 'https://pix10.agoda.net/hotelImages/652/65241/65241_15060313050028323977.jpg?s=1024x768'
     },
     {
@@ -38,7 +38,7 @@ var listingsData = [
             'elevator',
             'gym'
         ],
-        homeType: 'Apartment',
+        homeType: 'Single Home',
         image: 'https://cdn.vox-cdn.com/thumbor/TWSwK6KYaGquOyd-otLHBDsIODw=/0x0:960x641/1200x800/filters:focal(404x245:556x397)/cdn.vox-cdn.com/uploads/chorus_image/image/52676769/will5.0.jpg'
     },
     {
@@ -52,7 +52,7 @@ var listingsData = [
             'elevator',
             'gym'
         ],
-        homeType: 'Apartment',
+        homeType: 'Multi Home',
         image: 'https://images1.apartments.com/i2/P0s3lHrhIIPXfyhkVz0wMZXOqFj2m3Rg_Pa-OdKQIQk/111/the-500-atlanta-ga-refined-apartment-living---elite-upgrade.jpg'
     },
     {
@@ -94,7 +94,7 @@ var listingsData = [
             'elevator',
             'gym'
         ],
-        homeType: 'Apartment',
+        homeType: 'Studio',
         image: 'https://www.parisperfect.com/g/apartment-hero-images/hi_1-languedoc-apartment.jpg'
     }
 ]
