@@ -91,7 +91,7 @@ var listingsData = [
         price: 150000,
         floorSpace: 2000,
         extras: [
-            'elevator',
+            "basement",
             'gym'
         ],
         homeType: 'Studio',
